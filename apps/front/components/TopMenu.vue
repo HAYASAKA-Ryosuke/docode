@@ -7,7 +7,7 @@
         v-for="tab in tabs"
         :key="tab.id"
         :class="[{'bg-secondary-100': currentTab == tab.id, 'opacity-60': currentTab != tab.id}, 'flex-1 py-1 text-center cursor-pointer']"
-        class="flex-1 bg-secondary-100 text-white rounded-t py-1 text-center cursor-pointer"
+        class="flex-1 bg-secondary-100 text-white rounded-xd py-1 text-center cursor-pointer"
         @click="selectTab(tab.id)"
       >
         {{ tab.title }}
@@ -23,8 +23,8 @@
   })
 
   const tabs = [
-    {id: 1, title: 'Article'},
-    {id: 2, title: 'Code'}
+    {id: 1, title: 'Edit'},
+    {id: 2, title: 'Preview'}
   ]
   const selectTab = (tabId: number) => {
     currentTab.value = tabId
