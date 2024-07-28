@@ -23,8 +23,8 @@
   })
 
   const tabs = [
-    {id: 1, title: 'Edit'},
-    {id: 2, title: 'Preview'}
+    {id: 1, title: 'Preview'},
+    {id: 2, title: 'Edit'}
   ]
   const selectTab = (tabId: number) => {
     currentTab.value = tabId

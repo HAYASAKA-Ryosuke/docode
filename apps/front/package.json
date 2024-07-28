@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/postcss8": "^1.1.3",
     "@tailwindcss/typography": "^0.5.13",
+    "asciidoctor": "^3.0.4",
     "highlight.js": "^11.9.0",
     "markdown-it": "^14.1.0",
     "marked": "^13.0.1",
